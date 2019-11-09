@@ -58,6 +58,38 @@ class MainActivity : AppCompatActivity(), KotlinView.OnClickListener {
         FilterAndMap.mapItem()
         FilterAndMap.filterMaxItem()
 
+
+        val view = View(this)
+
+        view.setOnClickListener(object : View.OnClickListener {
+            override fun onClick(v: View?) {
+            }
+        })
+
+        view.setOnClickListener {
+            //            it.id
+        }
+
+        view.setOnClickListener {
+            MainActivity::listenr
+        }
+
+        val listener = object : View.OnClickListener, View.OnLongClickListener {
+
+            override fun onLongClick(v: View?): Boolean {
+                return true
+            }
+
+            override fun onClick(v: View?) {
+            }
+        }
+
+        listener.onClick(view)
+    }
+
+    val listenr = object : View.OnClickListener {
+        override fun onClick(v: View?) {
+        }
     }
 
     fun KotlinView.extensionFunction() {
@@ -131,6 +163,4 @@ class MainActivity : AppCompatActivity(), KotlinView.OnClickListener {
         user.validateBeforeSave()
         //save
     }
-
 }
-
