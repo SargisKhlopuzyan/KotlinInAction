@@ -1,4 +1,4 @@
-package com.example.kotlininaction.chapter_less_then_5.java;
+package com.example.kotlininaction.chapter_5_less_then_5.java;
 
 import android.util.Log;
 

@@ -1,7 +1,7 @@
-package com.example.kotlininaction.chapter_less_then_5
+package com.example.kotlininaction.chapter_5_less_then_5
 
 import android.util.Log
-import com.example.kotlininaction.chapter_less_then_5.interface_kt.PersonInterfaceKt
+import com.example.kotlininaction.chapter_5_less_then_5.interface_kt.PersonInterfaceKt
 
 /**
  * Created by Joomag, Inc., on 10/28/2019.

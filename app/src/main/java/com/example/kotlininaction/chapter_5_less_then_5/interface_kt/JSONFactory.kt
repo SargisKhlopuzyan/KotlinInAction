@@ -1,4 +1,4 @@
-package com.example.kotlininaction.chapter_less_then_5.interface_kt
+package com.example.kotlininaction.chapter_5_less_then_5.interface_kt
 
 /**
  * Created by Joomag, Inc., on 10/22/2019.
