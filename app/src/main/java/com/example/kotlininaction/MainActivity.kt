@@ -5,7 +5,7 @@ import android.util.Log
 import android.view.View
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
-import com.example.kotlininaction.chapter_4_objects_and_interfaces.*
+import com.example.kotlininaction.chapter_04_objects_and_interfaces.*
 import java.io.BufferedReader
 
 class MainActivity : AppCompatActivity(), KotlinView.OnClickListener {
